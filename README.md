@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# prachi-portfolio
-A modern, fully responsive personal portfolio website built with a full-stack architecture.   It features a stunning user interface created with React and Vite, backed by an Express/Node.js server that handles form submissions by saving them to a MongoDB database and sending email notifications via Nodemailer.
-=======
-# Personal Portfolio
+# Prachi's Personal Portfolio
 
 A modern, fully responsive personal portfolio website built with a full-stack architecture. 
 
@@ -70,4 +66,3 @@ This project is configured to be deployed as a single Web Service on Render.
 - **Build Command**: `npm run render-build`
 - **Start Command**: `npm start`
 - **Environment Variables required on Render**: `NODE_ENV=production`, `MONGO_URI`, `EMAIL_USER`, `EMAIL_PASS`
->>>>>>> d0fd842 (   first commit)
