@@ -1,0 +1,100 @@
+.marquee-container {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  width: 100vw;
+  transform: translateY(-50%); /* Removed rotation for purely horizontal scroll */
+  overflow: hidden;
+  z-index: 0;
+  display: flex;
+  opacity: 0.15; /* Subtle background */
+  padding: 4rem 0;
+  pointer-events: auto;
+  transition: opacity 0.4s ease;
+}
+
+.marquee-container:hover {
+  opacity: 0.8; /* Increase visibility on hover */
+  z-index: 50; /* Bring above some elements when hovered to interact properly */
+}
+
+.marquee-track {
+  display: flex;
+  gap: 6rem;
+  padding-left: 6rem;
+  animation: scrollMarquee 40s linear infinite;
+  align-items: center;
+  width: max-content;
+}
+
+.marquee-container:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+.marquee-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+}
+
+.marquee-icon {
+  width: 5rem;
+  height: 5rem;
+  color: var(--text-primary);
+  transition: all 0.4s ease;
+}
+
+.marquee-item:hover {
+  transform: scale(1.3) translateY(-15px);
+}
+
+.marquee-item:hover .marquee-icon {
+  color: var(--hover-color);
+  filter: drop-shadow(0 10px 25px var(--hover-color));
+}
+
+.marquee-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  white-space: nowrap;
+  font-family: 'Outfit', sans-serif;
+  text-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.marquee-item:hover .marquee-text {
+  opacity: 1;
+}
+
+@keyframes scrollMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* Since we duplicate the array exactly once, translating by -50% shifts it perfectly */
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .marquee-container {
+    transform: translateY(-50%) rotate(0deg); /* Straighten on mobile */
+    opacity: 0.1;
+  }
+  
+  .marquee-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  
+  .marquee-track {
+    gap: 3rem;
+    padding-left: 3rem;
+  }
+}
