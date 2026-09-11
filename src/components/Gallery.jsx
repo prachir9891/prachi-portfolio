@@ -1,7 +1,10 @@
-import React from 'react';
-import { projects } from '../data';
+import React, { useContext } from 'react';
+import { PortfolioContext } from '../context/PortfolioContext';
 
 export default function Gallery() {
+  const { portfolioData } = useContext(PortfolioContext);
+  const projects = portfolioData?.projects || [];
+
   return (
     <section id="portfolio" className="gallery-section">
       <div className="container">
@@ -15,24 +18,30 @@ export default function Gallery() {
         <div className="gallery-list">
           {projects.map((project, index) => (
             <div 
-              key={project.id} 
+              key={project._id || index} 
               className={`featured-project fade-in-up delay-${(index % 4) + 1} ${index % 2 === 0 ? 'image-left' : ''}`}
             >
               <div className="featured-content">
                 <h3>{project.title}</h3>
-                {project.description.split('\n\n').map((paragraph, i) => (
+                {project.description?.split('\n\n').map((paragraph, i) => (
                   <p key={i}>{paragraph}</p>
                 ))}
                 
-                <a href={project.links.live} className="project-link" target="_blank" rel="noopener noreferrer">
-                  View Project &rarr;
-                </a>
+                {project.links?.live && (
+                  <a href={project.links.live} className="project-link" target="_blank" rel="noopener noreferrer">
+                    View Project &rarr;
+                  </a>
+                )}
               </div>
               
               <div className="featured-image-container">
-                <a href={project.links.live} target="_blank" rel="noopener noreferrer">
+                {project.links?.live ? (
+                  <a href={project.links.live} target="_blank" rel="noopener noreferrer">
+                    <img src={project.image} alt={project.title} className="featured-image" />
+                  </a>
+                ) : (
                   <img src={project.image} alt={project.title} className="featured-image" />
-                </a>
+                )}
               </div>
             </div>
           ))}

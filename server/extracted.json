@@ -1,0 +1,926 @@
+[
+  {
+    "title": "Website Development Services",
+    "desc": "We build scalable, high-performance, and visually ...",
+    "iconName": "Monitor",
+    "slug": "website-development",
+    "internalPage": {
+      "heroTitle": "Website Development Services",
+      "heroSubtitle": "We build scalable, high-performance, and visually stunning web applications tailored to your business goals. From engaging frontend interfaces to robust backend architectures, we deliver end-to-end solutions.",
+      "typesTitle": "Types of Websites We Develop",
+      "typesItems": [
+        {
+          "title": "E-Commerce Platforms",
+          "iconName": "Monitor"
+        },
+        {
+          "title": "Corporate Websites",
+          "iconName": "Monitor"
+        },
+        {
+          "title": "SaaS Web Applications",
+          "iconName": "Monitor"
+        },
+        {
+          "title": "Custom Portfolios & Blogs",
+          "iconName": "Monitor"
+        },
+        {
+          "title": "Web Portals",
+          "iconName": "Monitor"
+        },
+        {
+          "title": "Landing Pages",
+          "iconName": "Monitor"
+        }
+      ],
+      "capabilitiesTitle": "Technical Capabilities",
+      "capabilitiesItems": [
+        {
+          "title": "Feature 1",
+          "desc": "Description 1",
+          "iconName": "Monitor"
+        },
+        {
+          "title": "Feature 2",
+          "desc": "Description 2",
+          "iconName": "Monitor"
+        },
+        {
+          "title": "Feature 3",
+          "desc": "Description 3",
+          "iconName": "Monitor"
+        }
+      ],
+      "featuresTitle": "Key Features & Standards",
+      "featuresItems": [
+        {
+          "title": "Standard 1",
+          "desc": "Description 1",
+          "iconName": "CheckCircle"
+        },
+        {
+          "title": "Standard 2",
+          "desc": "Description 2",
+          "iconName": "CheckCircle"
+        },
+        {
+          "title": "Standard 3",
+          "desc": "Description 3",
+          "iconName": "CheckCircle"
+        }
+      ],
+      "techStackTitle": "Our Tech Stack",
+      "techStackItems": [
+        {
+          "name": "React.js",
+          "iconName": "Code"
+        },
+        {
+          "name": "Node.js",
+          "iconName": "Code"
+        },
+        {
+          "name": "Express.js",
+          "iconName": "Code"
+        },
+        {
+          "name": "MongoDB",
+          "iconName": "Code"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconName": "Code"
+        },
+        {
+          "name": "Tailwind CSS",
+          "iconName": "Code"
+        },
+        {
+          "name": "Redux",
+          "iconName": "Code"
+        },
+        {
+          "name": "TypeScript",
+          "iconName": "Code"
+        },
+        {
+          "name": "Next.js",
+          "iconName": "Code"
+        },
+        {
+          "name": "AWS",
+          "iconName": "Code"
+        },
+        {
+          "name": "Docker",
+          "iconName": "Code"
+        }
+      ],
+      "processTitle": "Our Development Process",
+      "processSteps": [
+        "Discovery & Planning",
+        "UI/UX Design",
+        "Development & Integration",
+        "Testing & QA",
+        "Deployment & Launch",
+        "Maintenance & Support"
+      ],
+      "ctaTitle": "Ready to build something amazing?",
+      "ctaSubtitle": "Let's turn your vision into reality. Reach out today to discuss your project requirements.",
+      "ctaButtonText": "Start Your Project",
+      "ctaButtonLink": "/#contact"
+    }
+  },
+  {
+    "title": "Mobile App Development",
+    "desc": "We design and build intuitive, high-performance mo...",
+    "iconName": "Smartphone",
+    "slug": "mobile-development",
+    "internalPage": {
+      "heroTitle": "Mobile App Development",
+      "heroSubtitle": "We design and build intuitive, high-performance mobile applications for iOS and Android. From native experiences to cross-platform solutions, we bring your ideas to life on every device.",
+      "typesTitle": "Types of Apps We Develop",
+      "typesItems": [
+        {
+          "title": "E-Commerce Apps",
+          "iconName": "Smartphone"
+        },
+        {
+          "title": "Social Networking",
+          "iconName": "Smartphone"
+        },
+        {
+          "title": "On-Demand Services",
+          "iconName": "Smartphone"
+        },
+        {
+          "title": "Health & Fitness",
+          "iconName": "Smartphone"
+        },
+        {
+          "title": "Fintech Solutions",
+          "iconName": "Smartphone"
+        },
+        {
+          "title": "Enterprise Mobility",
+          "iconName": "Smartphone"
+        }
+      ],
+      "capabilitiesTitle": "Technical Capabilities",
+      "capabilitiesItems": [
+        {
+          "title": "Feature 1",
+          "desc": "Description 1",
+          "iconName": "Smartphone"
+        },
+        {
+          "title": "Feature 2",
+          "desc": "Description 2",
+          "iconName": "Smartphone"
+        },
+        {
+          "title": "Feature 3",
+          "desc": "Description 3",
+          "iconName": "Smartphone"
+        }
+      ],
+      "featuresTitle": "Key Features & Standards",
+      "featuresItems": [
+        {
+          "title": "Standard 1",
+          "desc": "Description 1",
+          "iconName": "CheckCircle"
+        },
+        {
+          "title": "Standard 2",
+          "desc": "Description 2",
+          "iconName": "CheckCircle"
+        },
+        {
+          "title": "Standard 3",
+          "desc": "Description 3",
+          "iconName": "CheckCircle"
+        }
+      ],
+      "techStackTitle": "Our Tech Stack",
+      "techStackItems": [
+        {
+          "name": "Strategy & UI/UX",
+          "iconName": "Code"
+        },
+        {
+          "name": "Architecture Setup",
+          "iconName": "Code"
+        },
+        {
+          "name": "App Development",
+          "iconName": "Code"
+        },
+        {
+          "name": "QA & Device Testing",
+          "iconName": "Code"
+        },
+        {
+          "name": "App Store Submission",
+          "iconName": "Code"
+        },
+        {
+          "name": "Post-Launch Support",
+          "iconName": "Code"
+        }
+      ],
+      "processTitle": "Our Development Process",
+      "processSteps": [
+        "Strategy & UI/UX",
+        "Architecture Setup",
+        "App Development",
+        "QA & Device Testing",
+        "App Store Submission",
+        "Post-Launch Support"
+      ],
+      "ctaTitle": "Ready to build your app?",
+      "ctaSubtitle": "Let's turn your vision into a reality. Reach out today to discuss your mobile app requirements.",
+      "ctaButtonText": "Start Your Project",
+      "ctaButtonLink": "/#contact"
+    }
+  },
+  {
+    "title": "Software Development",
+    "desc": "We engineer scalable, enterprise-grade software so...",
+    "iconName": "Code",
+    "slug": "software-development",
+    "internalPage": {
+      "heroTitle": "Software Development",
+      "heroSubtitle": "We engineer scalable, enterprise-grade software solutions that streamline operations and drive business growth. From custom SaaS platforms to complex legacy modernizations, we deliver robust code.",
+      "typesTitle": "Software Solutions We Provide",
+      "typesItems": [
+        {
+          "title": "Enterprise ERP Systems",
+          "iconName": "Code"
+        },
+        {
+          "title": "SaaS Platforms",
+          "iconName": "Code"
+        },
+        {
+          "title": "CRM Dashboards",
+          "iconName": "Code"
+        },
+        {
+          "title": "Workflow Automation",
+          "iconName": "Code"
+        },
+        {
+          "title": "Cloud Infrastructures",
+          "iconName": "Code"
+        },
+        {
+          "title": "Legacy Modernization",
+          "iconName": "Code"
+        }
+      ],
+      "capabilitiesTitle": "Technical Capabilities",
+      "capabilitiesItems": [
+        {
+          "title": "Feature 1",
+          "desc": "Description 1",
+          "iconName": "Code"
+        },
+        {
+          "title": "Feature 2",
+          "desc": "Description 2",
+          "iconName": "Code"
+        },
+        {
+          "title": "Feature 3",
+          "desc": "Description 3",
+          "iconName": "Code"
+        }
+      ],
+      "featuresTitle": "Key Features & Standards",
+      "featuresItems": [
+        {
+          "title": "Standard 1",
+          "desc": "Description 1",
+          "iconName": "CheckCircle"
+        },
+        {
+          "title": "Standard 2",
+          "desc": "Description 2",
+          "iconName": "CheckCircle"
+        },
+        {
+          "title": "Standard 3",
+          "desc": "Description 3",
+          "iconName": "CheckCircle"
+        }
+      ],
+      "techStackTitle": "Our Tech Stack",
+      "techStackItems": [
+        {
+          "name": "Requirements Gathering",
+          "iconName": "Code"
+        },
+        {
+          "name": "System Architecture",
+          "iconName": "Code"
+        },
+        {
+          "name": "Agile Development",
+          "iconName": "Code"
+        },
+        {
+          "name": "Automated Testing",
+          "iconName": "Code"
+        },
+        {
+          "name": "CI/CD Deployment",
+          "iconName": "Code"
+        },
+        {
+          "name": "Continuous Scaling",
+          "iconName": "Code"
+        }
+      ],
+      "processTitle": "Our Development Process",
+      "processSteps": [
+        "Requirements Gathering",
+        "System Architecture",
+        "Agile Development",
+        "Automated Testing",
+        "CI/CD Deployment",
+        "Continuous Scaling"
+      ],
+      "ctaTitle": "Ready to scale your business?",
+      "ctaSubtitle": "Let's build software that powers your growth. Reach out today to discuss your enterprise requirements.",
+      "ctaButtonText": "Start Your Project",
+      "ctaButtonLink": "/#contact"
+    }
+  },
+  {
+    "title": "UI/UX Development & Design",
+    "desc": "We craft intuitive, user-centric interfaces that e...",
+    "iconName": "PenTool",
+    "slug": "ui-ux-design",
+    "internalPage": {
+      "heroTitle": "UI/UX Development & Design",
+      "heroSubtitle": "We craft intuitive, user-centric interfaces that engage your audience and elevate your brand. From deep user research to pixel-perfect visual design and front-end development, we ensure every interaction is meaningful.",
+      "typesTitle": "Design Services We Provide",
+      "typesItems": [
+        {
+          "title": "Web Application UI",
+          "iconName": "PenTool"
+        },
+        {
+          "title": "Mobile App Interfaces",
+          "iconName": "PenTool"
+        },
+        {
+          "title": "Dashboard & SaaS UX",
+          "iconName": "PenTool"
+        },
+        {
+          "title": "E-Commerce Journeys",
+          "iconName": "PenTool"
+        },
+        {
+          "title": "Brand Identity Systems",
+          "iconName": "PenTool"
+        },
+        {
+          "title": "Prototyping & Wireframing",
+          "iconName": "PenTool"
+        }
+      ],
+      "capabilitiesTitle": "Technical Capabilities",
+      "capabilitiesItems": [
+        {
+          "title": "Feature 1",
+          "desc": "Description 1",
+          "iconName": "PenTool"
+        },
+        {
+          "title": "Feature 2",
+          "desc": "Description 2",
+          "iconName": "PenTool"
+        },
+        {
+          "title": "Feature 3",
+          "desc": "Description 3",
+          "iconName": "PenTool"
+        }
+      ],
+      "featuresTitle": "Key Features & Standards",
+      "featuresItems": [
+        {
+          "title": "Standard 1",
+          "desc": "Description 1",
+          "iconName": "CheckCircle"
+        },
+        {
+          "title": "Standard 2",
+          "desc": "Description 2",
+          "iconName": "CheckCircle"
+        },
+        {
+          "title": "Standard 3",
+          "desc": "Description 3",
+          "iconName": "CheckCircle"
+        }
+      ],
+      "techStackTitle": "Our Tech Stack",
+      "techStackItems": [
+        {
+          "name": "Discovery & Research",
+          "iconName": "Code"
+        },
+        {
+          "name": "Information Architecture",
+          "iconName": "Code"
+        },
+        {
+          "name": "Wireframing",
+          "iconName": "Code"
+        },
+        {
+          "name": "Visual Design (UI)",
+          "iconName": "Code"
+        },
+        {
+          "name": "Interactive Prototyping",
+          "iconName": "Code"
+        },
+        {
+          "name": "Usability Testing & Handoff",
+          "iconName": "Code"
+        }
+      ],
+      "processTitle": "Our Development Process",
+      "processSteps": [
+        "Discovery & Research",
+        "Information Architecture",
+        "Wireframing",
+        "Visual Design (UI)",
+        "Interactive Prototyping",
+        "Usability Testing & Handoff"
+      ],
+      "ctaTitle": "Ready to elevate your experience?",
+      "ctaSubtitle": "Let's design something your users will love. Reach out today to discuss your UI/UX needs.",
+      "ctaButtonText": "Start Your Project",
+      "ctaButtonLink": "/#contact"
+    }
+  },
+  {
+    "title": "Graphic Design Services",
+    "desc": "We create visually stunning and compelling graphic...",
+    "iconName": "Layout",
+    "slug": "graphic-design",
+    "internalPage": {
+      "heroTitle": "Graphic Design Services",
+      "heroSubtitle": "We create visually stunning and compelling graphic designs that capture your brand's essence. From impactful logos to complete visual identity systems and marketing materials, we bring your ideas to life.",
+      "typesTitle": "Design Solutions We Provide",
+      "typesItems": [
+        {
+          "title": "Brand Identity & Logos",
+          "iconName": "Layout"
+        },
+        {
+          "title": "Social Media Graphics",
+          "iconName": "Layout"
+        },
+        {
+          "title": "Marketing Materials",
+          "iconName": "Layout"
+        },
+        {
+          "title": "Banner & Ad Design",
+          "iconName": "Layout"
+        },
+        {
+          "title": "Custom Illustrations",
+          "iconName": "Layout"
+        },
+        {
+          "title": "Packaging Design",
+          "iconName": "Layout"
+        }
+      ],
+      "capabilitiesTitle": "Technical Capabilities",
+      "capabilitiesItems": [
+        {
+          "title": "Feature 1",
+          "desc": "Description 1",
+          "iconName": "Layout"
+        },
+        {
+          "title": "Feature 2",
+          "desc": "Description 2",
+          "iconName": "Layout"
+        },
+        {
+          "title": "Feature 3",
+          "desc": "Description 3",
+          "iconName": "Layout"
+        }
+      ],
+      "featuresTitle": "Key Features & Standards",
+      "featuresItems": [
+        {
+          "title": "Standard 1",
+          "desc": "Description 1",
+          "iconName": "CheckCircle"
+        },
+        {
+          "title": "Standard 2",
+          "desc": "Description 2",
+          "iconName": "CheckCircle"
+        },
+        {
+          "title": "Standard 3",
+          "desc": "Description 3",
+          "iconName": "CheckCircle"
+        }
+      ],
+      "techStackTitle": "Our Tech Stack",
+      "techStackItems": [
+        {
+          "name": "Creative Briefing",
+          "iconName": "Code"
+        },
+        {
+          "name": "Research & Moodboarding",
+          "iconName": "Code"
+        },
+        {
+          "name": "Concept Generation",
+          "iconName": "Code"
+        },
+        {
+          "name": "Refinement & Feedback",
+          "iconName": "Code"
+        },
+        {
+          "name": "Final Polishing",
+          "iconName": "Code"
+        },
+        {
+          "name": "Asset Delivery",
+          "iconName": "Code"
+        }
+      ],
+      "processTitle": "Our Development Process",
+      "processSteps": [
+        "Creative Briefing",
+        "Research & Moodboarding",
+        "Concept Generation",
+        "Refinement & Feedback",
+        "Final Polishing",
+        "Asset Delivery"
+      ],
+      "ctaTitle": "Ready to visualize your brand?",
+      "ctaSubtitle": "Let's create impactful designs that tell your unique story. Reach out today to discuss your graphic design needs.",
+      "ctaButtonText": "Start Your Project",
+      "ctaButtonLink": "/#contact"
+    }
+  },
+  {
+    "title": "Cloud Services",
+    "desc": "We design, deploy, and manage highly secure, scala...",
+    "iconName": "Cloud",
+    "slug": "cloud-services",
+    "internalPage": {
+      "heroTitle": "Cloud Services",
+      "heroSubtitle": "We design, deploy, and manage highly secure, scalable, and resilient cloud infrastructures. From application hosting to robust disaster recovery, we empower your business to thrive in the cloud.",
+      "typesTitle": "Cloud Solutions We Provide",
+      "typesItems": [
+        {
+          "title": "Cloud Architecture",
+          "iconName": "Cloud"
+        },
+        {
+          "title": "Server Management",
+          "iconName": "Cloud"
+        },
+        {
+          "title": "Database Hosting",
+          "iconName": "Cloud"
+        },
+        {
+          "title": "Application Deployment",
+          "iconName": "Cloud"
+        },
+        {
+          "title": "Disaster Recovery",
+          "iconName": "Cloud"
+        },
+        {
+          "title": "Cloud Migration",
+          "iconName": "Cloud"
+        }
+      ],
+      "capabilitiesTitle": "Technical Capabilities",
+      "capabilitiesItems": [
+        {
+          "title": "Feature 1",
+          "desc": "Description 1",
+          "iconName": "Cloud"
+        },
+        {
+          "title": "Feature 2",
+          "desc": "Description 2",
+          "iconName": "Cloud"
+        },
+        {
+          "title": "Feature 3",
+          "desc": "Description 3",
+          "iconName": "Cloud"
+        }
+      ],
+      "featuresTitle": "Key Features & Standards",
+      "featuresItems": [
+        {
+          "title": "Standard 1",
+          "desc": "Description 1",
+          "iconName": "CheckCircle"
+        },
+        {
+          "title": "Standard 2",
+          "desc": "Description 2",
+          "iconName": "CheckCircle"
+        },
+        {
+          "title": "Standard 3",
+          "desc": "Description 3",
+          "iconName": "CheckCircle"
+        }
+      ],
+      "techStackTitle": "Our Tech Stack",
+      "techStackItems": [
+        {
+          "name": "Assessment & Strategy",
+          "iconName": "Code"
+        },
+        {
+          "name": "Architecture Design",
+          "iconName": "Code"
+        },
+        {
+          "name": "Infrastructure Setup",
+          "iconName": "Code"
+        },
+        {
+          "name": "Migration & Deployment",
+          "iconName": "Code"
+        },
+        {
+          "name": "Security Hardening",
+          "iconName": "Code"
+        },
+        {
+          "name": "Monitoring & Support",
+          "iconName": "Code"
+        }
+      ],
+      "processTitle": "Our Development Process",
+      "processSteps": [
+        "Assessment & Strategy",
+        "Architecture Design",
+        "Infrastructure Setup",
+        "Migration & Deployment",
+        "Security Hardening",
+        "Monitoring & Support"
+      ],
+      "ctaTitle": "Ready to move to the cloud?",
+      "ctaSubtitle": "Let's build a secure, scalable foundation for your digital assets. Reach out today to discuss your cloud infrastructure needs.",
+      "ctaButtonText": "Start Your Project",
+      "ctaButtonLink": "/#contact"
+    }
+  },
+  {
+    "title": "Digital Marketing",
+    "desc": "We engineer data-driven marketing strategies that ...",
+    "iconName": "TrendingUp",
+    "slug": "digital-marketing",
+    "internalPage": {
+      "heroTitle": "Digital Marketing",
+      "heroSubtitle": "We engineer data-driven marketing strategies that amplify your brand, attract qualified leads, and significantly boost your ROI. From SEO to advanced paid advertising, we drive measurable growth.",
+      "typesTitle": "Marketing Channels We Master",
+      "typesItems": [
+        {
+          "title": "Search Engine Optimization (SEO)",
+          "iconName": "TrendingUp"
+        },
+        {
+          "title": "Search Engine Marketing (PPC)",
+          "iconName": "TrendingUp"
+        },
+        {
+          "title": "Social Media Advertising",
+          "iconName": "TrendingUp"
+        },
+        {
+          "title": "Content Marketing",
+          "iconName": "TrendingUp"
+        },
+        {
+          "title": "Email Campaigns",
+          "iconName": "TrendingUp"
+        },
+        {
+          "title": "Conversion Rate Optimization",
+          "iconName": "TrendingUp"
+        }
+      ],
+      "capabilitiesTitle": "Technical Capabilities",
+      "capabilitiesItems": [
+        {
+          "title": "Feature 1",
+          "desc": "Description 1",
+          "iconName": "TrendingUp"
+        },
+        {
+          "title": "Feature 2",
+          "desc": "Description 2",
+          "iconName": "TrendingUp"
+        },
+        {
+          "title": "Feature 3",
+          "desc": "Description 3",
+          "iconName": "TrendingUp"
+        }
+      ],
+      "featuresTitle": "Key Features & Standards",
+      "featuresItems": [
+        {
+          "title": "Standard 1",
+          "desc": "Description 1",
+          "iconName": "CheckCircle"
+        },
+        {
+          "title": "Standard 2",
+          "desc": "Description 2",
+          "iconName": "CheckCircle"
+        },
+        {
+          "title": "Standard 3",
+          "desc": "Description 3",
+          "iconName": "CheckCircle"
+        }
+      ],
+      "techStackTitle": "Our Tech Stack",
+      "techStackItems": [
+        {
+          "name": "Market Research & Audit",
+          "iconName": "Code"
+        },
+        {
+          "name": "Strategy Formulation",
+          "iconName": "Code"
+        },
+        {
+          "name": "Campaign Setup",
+          "iconName": "Code"
+        },
+        {
+          "name": "Creative Production",
+          "iconName": "Code"
+        },
+        {
+          "name": "Launch & Monitor",
+          "iconName": "Code"
+        },
+        {
+          "name": "Analyze & Optimize",
+          "iconName": "Code"
+        }
+      ],
+      "processTitle": "Our Development Process",
+      "processSteps": [
+        "Market Research & Audit",
+        "Strategy Formulation",
+        "Campaign Setup",
+        "Creative Production",
+        "Launch & Monitor",
+        "Analyze & Optimize"
+      ],
+      "ctaTitle": "Ready to multiply your growth?",
+      "ctaSubtitle": "Let's build a digital marketing machine that reliably generates leads and sales. Reach out today.",
+      "ctaButtonText": "Start Your Project",
+      "ctaButtonLink": "/#contact"
+    }
+  },
+  {
+    "title": "Social Media Management",
+    "desc": "We build engaged, passionate communities around yo...",
+    "iconName": "Share2",
+    "slug": "social-media",
+    "internalPage": {
+      "heroTitle": "Social Media Management",
+      "heroSubtitle": "We build engaged, passionate communities around your brand. From stunning content creation to proactive community management, we turn your social media channels into powerful growth engines.",
+      "typesTitle": "Social Media Services We Provide",
+      "typesItems": [
+        {
+          "title": "Social Media Strategy",
+          "iconName": "Share2"
+        },
+        {
+          "title": "Content Creation & Curation",
+          "iconName": "Share2"
+        },
+        {
+          "title": "Community Management",
+          "iconName": "Share2"
+        },
+        {
+          "title": "Influencer Outreach",
+          "iconName": "Share2"
+        },
+        {
+          "title": "Social Media Advertising",
+          "iconName": "Share2"
+        },
+        {
+          "title": "Brand Reputation Management",
+          "iconName": "Share2"
+        }
+      ],
+      "capabilitiesTitle": "Technical Capabilities",
+      "capabilitiesItems": [
+        {
+          "title": "Feature 1",
+          "desc": "Description 1",
+          "iconName": "Share2"
+        },
+        {
+          "title": "Feature 2",
+          "desc": "Description 2",
+          "iconName": "Share2"
+        },
+        {
+          "title": "Feature 3",
+          "desc": "Description 3",
+          "iconName": "Share2"
+        }
+      ],
+      "featuresTitle": "Key Features & Standards",
+      "featuresItems": [
+        {
+          "title": "Standard 1",
+          "desc": "Description 1",
+          "iconName": "CheckCircle"
+        },
+        {
+          "title": "Standard 2",
+          "desc": "Description 2",
+          "iconName": "CheckCircle"
+        },
+        {
+          "title": "Standard 3",
+          "desc": "Description 3",
+          "iconName": "CheckCircle"
+        }
+      ],
+      "techStackTitle": "Our Tech Stack",
+      "techStackItems": [
+        {
+          "name": "Brand Audit",
+          "iconName": "Code"
+        },
+        {
+          "name": "Content Strategy",
+          "iconName": "Code"
+        },
+        {
+          "name": "Asset Creation",
+          "iconName": "Code"
+        },
+        {
+          "name": "Approval & Scheduling",
+          "iconName": "Code"
+        },
+        {
+          "name": "Community Engagement",
+          "iconName": "Code"
+        },
+        {
+          "name": "Analytics & Reporting",
+          "iconName": "Code"
+        }
+      ],
+      "processTitle": "Our Development Process",
+      "processSteps": [
+        "Brand Audit",
+        "Content Strategy",
+        "Asset Creation",
+        "Approval & Scheduling",
+        "Community Engagement",
+        "Analytics & Reporting"
+      ],
+      "ctaTitle": "Ready to grow your audience?",
+      "ctaSubtitle": "Let's build a vibrant community that actively advocates for your brand. Reach out today.",
+      "ctaButtonText": "Start Your Project",
+      "ctaButtonLink": "/#contact"
+    }
+  }
+]

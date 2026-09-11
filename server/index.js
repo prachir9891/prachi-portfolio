@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import connectDB from './config/db.js';
 import contactRoutes from './routes/contactRoutes.js';
+import portfolioRoutes from './routes/portfolioRoutes.js';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -24,6 +25,7 @@ app.use(cors());
 
 // Routes
 app.use('/api/contact', contactRoutes);
+app.use('/api/portfolio', portfolioRoutes);
 
 // Serve static assets in production
 if (process.env.NODE_ENV === 'production') {

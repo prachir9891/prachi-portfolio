@@ -1,52 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { Monitor, Smartphone, Code, PenTool, Layout, Cloud, TrendingUp, Share2 } from 'lucide-react';
+import * as Icons from 'lucide-react';
+import { PortfolioContext } from '../context/PortfolioContext';
 import './Services.css';
 
-const servicesData = [
-  {
-    title: 'Website Development',
-    desc: 'Custom, high-performance websites built for growth.',
-    icon: <Monitor size={24} />,
-  },
-  {
-    title: 'Mobile App Development',
-    desc: 'Intuitive iOS & Android applications.',
-    icon: <Smartphone size={24} />,
-  },
-  {
-    title: 'Software Development',
-    desc: 'Scalable enterprise software solutions.',
-    icon: <Code size={24} />,
-  },
-  {
-    title: 'UI/UX Design',
-    desc: 'User-centric designs that drive engagement.',
-    icon: <PenTool size={24} />,
-  },
-  {
-    title: 'Graphic Design',
-    desc: 'Stunning visuals and brand creatives.',
-    icon: <Layout size={24} />,
-  },
-  {
-    title: 'Cloud Services',
-    desc: 'Secure and scalable cloud infrastructure.',
-    icon: <Cloud size={24} />,
-  },
-  {
-    title: 'Digital Marketing',
-    desc: 'Data-driven marketing to boost your ROI.',
-    icon: <TrendingUp size={24} />,
-  },
-  {
-    title: 'Social Media Management',
-    desc: 'Engaging content and community building.',
-    icon: <Share2 size={24} />,
-  }
-];
-
 export default function Services() {
+  const { portfolioData } = useContext(PortfolioContext);
+  const servicesData = portfolioData?.services || [];
+
   return (
     <section id="services" className="services-section">
       <div className="container">
@@ -76,6 +37,8 @@ export default function Services() {
             if (isSocialMedia) path = '/social-media';
             
             const wrapperProps = isClickable ? { to: path } : {};
+            
+            const IconComponent = Icons[s.iconName] || Icons.Monitor; // fallback icon
 
             return (
               <CardWrapper
@@ -85,7 +48,7 @@ export default function Services() {
                 key={i}
               >
                 <div className="service-icon-wrapper">
-                  {s.icon}
+                  <IconComponent size={24} />
                 </div>
                 <div className="service-content">
                   <h3>{s.title}</h3>
