@@ -1,6 +1,11 @@
 import React, { createContext, useState, useEffect } from 'react';
 import axios from 'axios';
 
+// Configure Axios to use the live backend URL if it is provided by Vercel environment variables.
+if (import.meta.env.VITE_API_URL) {
+  axios.defaults.baseURL = import.meta.env.VITE_API_URL;
+}
+
 export const PortfolioContext = createContext();
 
 export const PortfolioProvider = ({ children }) => {
