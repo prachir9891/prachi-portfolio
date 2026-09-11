@@ -17,6 +17,12 @@ export const PortfolioProvider = ({ children }) => {
     try {
       setIsLoading(true);
       const res = await axios.get('/api/portfolio'); // Will proxy to backend or use full URL if set
+      
+      // If Vercel returns index.html instead of JSON, throw an error to prevent crash
+      if (typeof res.data === 'string' && res.data.includes('<html')) {
+        throw new Error('API returned HTML. VITE_API_URL is likely missing or incorrect.');
+      }
+      
       setPortfolioData(res.data);
       setError(null);
     } catch (err) {
