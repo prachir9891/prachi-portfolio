@@ -27,18 +27,10 @@ app.use(cors());
 app.use('/api/contact', contactRoutes);
 app.use('/api/portfolio', portfolioRoutes);
 
-// Serve static assets in production
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '../dist')));
-
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, '../dist', 'index.html'));
-  });
-} else {
-  app.get('/', (req, res) => {
-    res.send('Portfolio Backend Server is running...');
-  });
-}
+// Default Route
+app.get('/', (req, res) => {
+  res.send('Portfolio Backend Server is running...');
+});
 
 const PORT = process.env.PORT || 5000;
 
